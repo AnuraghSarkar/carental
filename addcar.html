@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./assets/css/addcar.css">
+  <title>Add Cars</title>
+</head>
+
+<body>
+  <!-- 
+    - #HEADER
+  -->
+
+  <header class="header" data-header>
+
+    <a href="/" class="logo">
+      <h3>Carental</h3>
+    </a>
+
+  </header>
+
+  <div class="container">
+    <div class="title">Add Car Details</div>
+    <div class="content">
+      <form action="/">
+        <div class="user-details">
+          <div class="input-box">
+            <span class="details">Car Make</span>
+            <input type="text" placeholder="Enter Car Brand" required>
+          </div>
+          <div class="input-box">
+            <span class="details">Car Model</span>
+            <input type="text" placeholder="Enter Your Car Model" required>
+          </div>
+          <div class="input-box">
+            <span class="details">Year</span>
+            <input type="date" placeholder="Enter Car Purchase Year" required>
+          </div>
+          <div class="input-box">
+            <span class="details">Milage</span>
+            <input type="number" placeholder="Enter Car Milage" step=".01" required>
+          </div>
+          <div class="input-box">
+            <span class="details">Location</span>
+            <input type="text" placeholder="Enter Location" required>
+          </div>
+          <div class="input-box">
+            <span class="details">Price</span>
+            <input type="number" placeholder="Enter Car Price" required>
+          </div>
+        </div>
+        <div class="btn">
+          <input type="submit" value="Add Car Detail">
+        </div>
+      </form>
+    </div>
+  </div>
+
+  <script src="./assets/js/dynamic.js"></script>
+
+</body>
+
+</html>
